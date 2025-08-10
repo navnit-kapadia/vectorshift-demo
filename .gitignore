@@ -1,0 +1,44 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+frontend/node_modules/
+backend/node_modules/
+backend/__pycache__/
+backend/.venv/
+backend/venv/
+
+# Build outputs
+frontend/build/
+frontend/dist/
+backend/build/
+backend/dist/
+
+# Environment files
+.env
+.env.local
+.env.production
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Test coverage
+frontend/coverage/
+backend/coverage/
+
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+.pytest_cache/
